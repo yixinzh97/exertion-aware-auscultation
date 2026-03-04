@@ -37,17 +37,9 @@ exertion-aware-auscultation/
 │       └── README_data.md              # Instructions for obtaining raw PCG recordings
 ├── models/
 │   ├── exertion_aware_dual_bayesian.py # Proposed model (main contribution)
-│   └── feature_extraction.py           # RMS, PSD, MFCC feature augmentation
 ├── baselines/
-│   ├── resnet_murmur.py                # ResNet murmur grading (Liu et al.)
-│   ├── lstm_hm_detect.py               # HM-Detect LSTM (Sivaraman & Xiao)
-│   └── dual_bayesian_resnet.py         # Dual Bayesian ResNet (Walker et al.)
-├── experiments/
-│   ├── train.py                        # Training entry point
-│   ├── evaluate.py                     # Evaluation + confusion matrix
-│   └── cross_validation.py             # 5-fold CV protocol
-├── configs/
-│   └── default.yaml                    # Hyperparameters and paths
+│   ├── resnet.py                # ResNet murmur grading (Liu et al.)
+│   ├── lstm.py               # HM-Detect LSTM (Sivaraman & Xiao)
 └── requirements.txt
 ```
 
