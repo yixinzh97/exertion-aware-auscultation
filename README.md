@@ -76,7 +76,7 @@ exertion-aware-auscultation/
 
 ### Post-Exercise DB
 
-The post-exercise subset is derived from the **Multi-Modal Post-Exercise Dataset** and contains **160 PCG recordings** collected immediately after treadmill running at varying exertion levels.
+The Post-Exercise DB used in this repository is a cardiologist-selected and clinician-annotated subset derived from the **Multi-Modal Post-Exercise Dataset**, which contains **160 PCG recordings** collected immediately after treadmill running at varying exertion levels.
 
 Collection details:
 
@@ -106,11 +106,13 @@ Annotation file:
 data/annotations/post_exercise_labels.csv
 ```
 
-Expected columns:
+**Multi-Modal Post-Exercise Dataset** link:
 
 ```text
-recording_id, rpe_level, label, heart_rate_bpm, norm_peak_amplitude
+https://github.com/Columbia-ICSL/data_after_cardio/tree/main/pcg
 ```
+
+
 
 ### CirCor DB
 
